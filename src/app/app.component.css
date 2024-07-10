@@ -1,0 +1,15 @@
+.header-container {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+}
+
+.calculator-container {
+    width: 30vw;
+}
+
+.result-container {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+}

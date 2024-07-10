@@ -1,0 +1,13 @@
+<div class="header-container">
+    <app-header />
+</div>
+<div class="calculator-container">
+    <app-calculator (investmentDetails)="onInvestmentDetails($event)"/>
+</div>
+<div class="result-container">
+    @if (calculatedResults.length) {
+        <app-results [displayData]="calculatedResults"/>
+    } @else {
+        <p>Add values to check investment results!</p>
+    }
+</div>
